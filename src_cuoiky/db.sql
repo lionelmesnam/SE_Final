@@ -76,7 +76,7 @@ CREATE TABLE `messages` (
 --
 
 INSERT INTO `messages` (`id`, `user_id`, `name`, `email`, `number`, `message`) VALUES
-(1, 2, 'Đoàn Quang Huy', 'quanghuybest@gmail.com', '0859476166', 'Sản phẩm ngon bổ rẻ, sẽ ủng hộ shop trong tương lai hi hi');
+(1, 2, 'Lý Hưng Lâm', 'hunglam@gmail.com', '0859476166', 'Sản phẩm ngon bổ rẻ, sẽ ủng hộ shop trong tương lai');
 
 -- --------------------------------------------------------
 
@@ -103,8 +103,8 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`id`, `user_id`, `name`, `number`, `email`, `method`, `address`, `total_products`, `total_price`, `placed_on`, `payment_status`) VALUES
-(1, 2, 'Đoàn Quang Huy', '0859476166', 'quanghuybest@gmail.com', 'MoMo', 'A18, Pham Van Dong, Phuong 8, Phan Rang, Ninh Thuan, Viet Nam - 25000', 'Razer Blade 14 Gaming (52.130.000<span>đ</span> x 1)', 52130000, '2022-12-03', 'pending'),
-(2, 2, 'Đoàn Quang Huy', '0859476166', 'quanghuybest@gmail.com', 'ZaloPay', 'A18, Pham Van Dong, Phuong 8, Phan Rang, Ninh Thuan, Viet Nam - 25000', 'Asus ExpertBook B5402CB i5 (22.000.000<span>đ</span> x 1)', 22000000, '2022-12-04', 'completed');
+(1, 2, 'Lý Hưng Lâm', '0859476166', 'hunglam@gmail.com', 'MoMo', 'A18, Pham Van Dong, Phuong 8, Phan Rang, Ninh Thuan, Viet Nam - 25000', 'Razer Blade 14 Gaming (52.130.000<span>đ</span> x 1)', 52130000, '2022-12-03', 'pending'),
+(2, 2, 'Lý Hưng Lâm', '0859476166', 'hunglam@gmail.com', 'ZaloPay', 'A18, Pham Van Dong, Phuong 8, Phan Rang, Ninh Thuan, Viet Nam - 25000', 'Asus ExpertBook B5402CB i5 (22.000.000<span>đ</span> x 1)', 22000000, '2022-12-04', 'completed');
 
 -- --------------------------------------------------------
 
@@ -148,8 +148,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `number`, `password`, `address`) VALUES
-(1, 'Hồ Trương Huệ Nhật', 'suppersun1177@gmail.com', '0917117724', '7c4a8d09ca3762af61e59520943dc26494f8941b', 'B9, 17, Nguyễn Hoàng, Phường 7, Đà Lạt, Lâm Đồng, Việt Nam - 700000'),
-(2, 'Đoàn Quang Huy', 'quanghuybest@gmail.com', '0859476166', '7c4a8d09ca3762af61e59520943dc26494f8941b', 'A18, Pham Van Dong, Phuong 8, Phan Rang, Ninh Thuan, Viet Nam - 25000');
+(1, 'Nguyễn Thành Long', 'thanhlong@gmail.com', '0917117724', '7c4a8d09ca3762af61e59520943dc26494f8941b', 'B9, 17, Nguyễn Hoàng, Phường 7, Đà Lạt, Lâm Đồng, Việt Nam - 700000'),
+(2, 'Nguyễn Nhật Nam', 'nhatnam@gmail.com', '0859476166', '7c4a8d09ca3762af61e59520943dc26494f8941b', 'A9, Pham Van Dong, Phuong 8, Phan Rang, Ninh Thuan, Viet Nam - 25000');
 
 --
 -- Indexes for dumped tables
